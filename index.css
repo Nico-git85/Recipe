@@ -1,0 +1,148 @@
+a[href = "https://developer.mozilla.org"]  {
+    display: table;
+    margin: 2em auto 0;
+    padding: 1em;
+    text-align: center;
+    color: hsl(143, 67%, 22%);
+    text-decoration: none;
+    font-family: cursive;
+  }
+body{
+    background-color: #d9e4dd;
+    border: solid 2px green;
+    width:100%;
+    margin: 20px;
+    padding:20px;
+    font-family: cursive;
+}
+nav{
+    border: solid 1px green;
+    text-align: center;
+    }
+
+  h1, h2 {
+  background-color: green;
+  color:#f2edd7 ;
+  }
+ h1 {
+     text-align: center;
+ }
+
+p{
+    font-size: 20px;
+}
+
+span {
+    font-style: italic;
+    color: green;
+}
+
+section > div > p > span {
+    text-decoration: underline;
+}
+.special{
+    font-style:normal;
+}
+
+ 
+ body > div > nav > ul> li {
+     display: inline;
+     padding: 10px;
+     margin:5px;
+}
+
+ .my-list {
+     padding-left:0;
+ }
+
+ body > div > nav > ul> {
+     margin-left: 0;
+ }
+ body > div > nav > ul> li > a {
+     color: black;;
+ }
+ .first-paragraph {
+      width: 100%;
+  }
+
+ .first-section {
+     width: 50%;
+     background-color: #91c788;
+     color: #1f441e;
+     padding : 5px 5px;
+     border-radius: 8px;
+     margin:5px;
+     }
+
+ .first-section > h3 {
+         text-align: center;
+     }
+ .first-section > h3 > p {
+         text-align: center;
+     }
+     
+ .first > li {
+       padding: 5px 15px 15px;
+       font-size: 1.2rem;
+     }
+
+     .first-section > ul > img {
+        width: 50%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+        filter: drop-shadow(0 0 0.75rem #feffde);
+         }
+ .second-section {
+      width: 50%;
+      background-color: #91c788;
+      color: #1f441e;
+      padding : 5px 5px;
+      border-radius: 8px;
+      margin:5px;
+      text-align: justify;
+         }
+  #main{
+      width : 100%;
+      display:inline-flex;
+  }     
+  .second-section > h3{
+      text-align: center;
+
+  }     
+  .second-section > ul, ol {
+    padding: 10px 5px 15px 15px;
+    font-size: 1.2rem;
+    margin: 20px;
+    
+  }  
+  #foot {
+      width:100%;
+    
+  }
+  #foot > p {
+      width: 100%;
+      margin: 15px;
+  }
+  #foot > img {
+      width : 35%;
+      margin: 50px;
+      padding: 50px;
+      border-radius: 15px;
+        box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+        filter: drop-shadow(0 0 0.75rem #3a6351);
+        display:inline-block;
+        justify-content: space-between;
+    }
+   
+  
